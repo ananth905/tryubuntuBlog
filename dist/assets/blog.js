@@ -49,23 +49,96 @@
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
       <div class="color-ball"></div>
-  <div class="homepage-container">
-    
-      <div class="section-1 welcome-box flex items-center">
-         <div class="content-box">
-            mWindows: The OS that knows you better than your spouse.<br/> Linux: The OS that minds its own business.
+   
+  <div class="homepage-container flex flex-col">
+    <div class="linux-unix-switch">
+      <div class="linux-unix-btn active">Linux</div>
+       <div class="linux-unix-btn">BSD</div>
+    </div> 
+      <div class="section-1 welcome-box flex items-center justify-between">
+         <div class="content-box flex flex-col items-end">
+           <span>"Windows: I need 16GB of RAM and an i7 processor just to open Word.<br/>
+  Linux: I can run on a potato and still get work done."</span> 
+           <span>
+              <div class="read-button " >
+                  Cat the blog
+              </div>
+           </span>
          </div>
-         <div class="image-box">
-           
+         <div class="images-box">
+          <img src="/images/boy.png" alt="" />
          </div>
+      </div>
+  
+      <div class="section-2 blogs-tiles-container flex flex-wrap">
+          <div class="blog-tile">
+              <div class="img-blog">
+                  <img class="blogs-image" src="/images/Ubuntu-24.10.jpg" alt="">
+              </div>
+              <div class="blog-content-block blog-title">
+                 Effortless Ubuntu 24.10 Upgrade for Seasoned Linux Users
+              </div>
+              <div class="tile-footer"></div>
+          </div>
+            <div class="blog-tile">
+              <div class="img-blog">
+                  <img class="blogs-image" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Lubuntu_20.10_2880p_EN_20201231_31_12_2020_18_01_35.png" alt="">
+              </div>
+              <div class="blog-content-block blog-title">
+                Fast and Lean: Discover the Best Lightweight Linux Distross
+              </div>
+              <div class="tile-footer"></div>
+          </div>
+           <div class="blog-tile">
+              <div class="img-blog">
+                  <img class="blogs-image" src="https://europe1.discourse-cdn.com/unity/original/4X/e/7/e/e7ec7df2eedf8713ba3a38d1b6a9cca010bcbd32.png" alt="">
+              </div>
+              <div class="blog-content-block blog-title">
+              Unity Won't Open? Solutions for Ubuntu 24.04 Users
+              </div>
+              <div class="tile-footer"></div>
+          </div>
+           <div class="blog-tile">
+              <div class="img-blog">
+                  <img class="blogs-image" src="https://kskroyal.com/wp-content/uploads/2023/02/Make-ubuntu-Look-Like-MacOS-Ventura.jpg" alt="">
+              </div>
+              <div class="blog-content-block blog-title">
+              Make Your Ubuntu Desktop Mirror macOS Design
+              </div>
+              <div class="tile-footer"></div>
+          </div>
       </div>
   </div>
   {{yield}}
   */
   {
-    "id": "1h5h7LYs",
-    "block": "[[[1,\"  \"],[10,0],[14,0,\"color-ball\"],[12],[13],[1,\"\\n\"],[10,0],[14,0,\"homepage-container\"],[12],[1,\"\\n  \\n    \"],[10,0],[14,0,\"section-1 welcome-box flex items-center\"],[12],[1,\"\\n       \"],[10,0],[14,0,\"content-box\"],[12],[1,\"\\n          mWindows: The OS that knows you better than your spouse.\"],[10,\"br\"],[12],[13],[1,\" Linux: The OS that minds its own business.\\n       \"],[13],[1,\"\\n       \"],[10,0],[14,0,\"image-box\"],[12],[1,\"\\n         \\n       \"],[13],[1,\"\\n    \"],[13],[1,\"\\n\"],[13],[1,\"\\n\"],[18,1,null]],[\"&default\"],false,[\"div\",\"br\",\"yield\"]]",
+    "id": "hzoopjOP",
+    "block": "[[[1,\"  \"],[10,0],[14,0,\"color-ball\"],[12],[13],[1,\"\\n \\n\"],[10,0],[14,0,\"homepage-container flex flex-col\"],[12],[1,\"\\n  \"],[10,0],[14,0,\"linux-unix-switch\"],[12],[1,\"\\n    \"],[10,0],[14,0,\"linux-unix-btn active\"],[12],[1,\"Linux\"],[13],[1,\"\\n     \"],[10,0],[14,0,\"linux-unix-btn\"],[12],[1,\"BSD\"],[13],[1,\"\\n  \"],[13],[1,\" \\n    \"],[10,0],[14,0,\"section-1 welcome-box flex items-center justify-between\"],[12],[1,\"\\n       \"],[10,0],[14,0,\"content-box flex flex-col items-end\"],[12],[1,\"\\n         \"],[10,1],[12],[1,\"\\\"Windows: I need 16GB of RAM and an i7 processor just to open Word.\"],[10,\"br\"],[12],[13],[1,\"\\nLinux: I can run on a potato and still get work done.\\\"\"],[13],[1,\" \\n         \"],[10,1],[12],[1,\"\\n            \"],[10,0],[14,0,\"read-button \"],[12],[1,\"\\n                Cat the blog\\n            \"],[13],[1,\"\\n         \"],[13],[1,\"\\n       \"],[13],[1,\"\\n       \"],[10,0],[14,0,\"images-box\"],[12],[1,\"\\n        \"],[10,\"img\"],[14,\"src\",\"/images/boy.png\"],[14,\"alt\",\"\"],[12],[13],[1,\"\\n       \"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,0,\"section-2 blogs-tiles-container flex flex-wrap\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"blog-tile\"],[12],[1,\"\\n            \"],[10,0],[14,0,\"img-blog\"],[12],[1,\"\\n                \"],[10,\"img\"],[14,0,\"blogs-image\"],[14,\"src\",\"/images/Ubuntu-24.10.jpg\"],[14,\"alt\",\"\"],[12],[13],[1,\"\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"blog-content-block blog-title\"],[12],[1,\"\\n               Effortless Ubuntu 24.10 Upgrade for Seasoned Linux Users\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"tile-footer\"],[12],[13],[1,\"\\n        \"],[13],[1,\"\\n          \"],[10,0],[14,0,\"blog-tile\"],[12],[1,\"\\n            \"],[10,0],[14,0,\"img-blog\"],[12],[1,\"\\n                \"],[10,\"img\"],[14,0,\"blogs-image\"],[14,\"src\",\"https://upload.wikimedia.org/wikipedia/commons/c/c5/Lubuntu_20.10_2880p_EN_20201231_31_12_2020_18_01_35.png\"],[14,\"alt\",\"\"],[12],[13],[1,\"\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"blog-content-block blog-title\"],[12],[1,\"\\n              Fast and Lean: Discover the Best Lightweight Linux Distross\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"tile-footer\"],[12],[13],[1,\"\\n        \"],[13],[1,\"\\n         \"],[10,0],[14,0,\"blog-tile\"],[12],[1,\"\\n            \"],[10,0],[14,0,\"img-blog\"],[12],[1,\"\\n                \"],[10,\"img\"],[14,0,\"blogs-image\"],[14,\"src\",\"https://europe1.discourse-cdn.com/unity/original/4X/e/7/e/e7ec7df2eedf8713ba3a38d1b6a9cca010bcbd32.png\"],[14,\"alt\",\"\"],[12],[13],[1,\"\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"blog-content-block blog-title\"],[12],[1,\"\\n            Unity Won't Open? Solutions for Ubuntu 24.04 Users\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"tile-footer\"],[12],[13],[1,\"\\n        \"],[13],[1,\"\\n         \"],[10,0],[14,0,\"blog-tile\"],[12],[1,\"\\n            \"],[10,0],[14,0,\"img-blog\"],[12],[1,\"\\n                \"],[10,\"img\"],[14,0,\"blogs-image\"],[14,\"src\",\"https://kskroyal.com/wp-content/uploads/2023/02/Make-ubuntu-Look-Like-MacOS-Ventura.jpg\"],[14,\"alt\",\"\"],[12],[13],[1,\"\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"blog-content-block blog-title\"],[12],[1,\"\\n            Make Your Ubuntu Desktop Mirror macOS Design\\n            \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"tile-footer\"],[12],[13],[1,\"\\n        \"],[13],[1,\"\\n    \"],[13],[1,\"\\n\"],[13],[1,\"\\n\"],[18,1,null]],[\"&default\"],false,[\"div\",\"span\",\"br\",\"img\",\"yield\"]]",
     "moduleName": "blog/components/homepage.hbs",
+    "isStrictMode": false
+  });
+  var _default = _exports.default = (0, _component.setComponentTemplate)(__COLOCATED_TEMPLATE__, (0, _templateOnly.default)());
+});
+;define("blog/components/navigation-bar", ["exports", "@ember/component", "@ember/component/template-only", "@ember/template-factory"], function (_exports, _component, _templateOnly, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/component/template-only",0,"@ember/template-factory",0,"@ember/component"eaimeta@70e063a35619d71f
+  const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
+  /*
+    <div class="navigationBar-Container">
+      
+  </div>
+  
+  {{yield}}
+  */
+  {
+    "id": "fsUuPI4d",
+    "block": "[[[10,0],[14,0,\"navigationBar-Container\"],[12],[1,\"\\n    \\n\"],[13],[1,\"\\n\\n\"],[18,1,null]],[\"&default\"],false,[\"div\",\"yield\"]]",
+    "moduleName": "blog/components/navigation-bar.hbs",
     "isStrictMode": false
   });
   var _default = _exports.default = (0, _component.setComponentTemplate)(__COLOCATED_TEMPLATE__, (0, _templateOnly.default)());
@@ -273,12 +346,13 @@
   {{outlet}}
   
   {{! The following component displays Ember's default welcome message. }}
+  <NavigationBar />
   <Homepage/>
   {{! Feel free to remove this! }}
   */
   {
-    "id": "YOkj/F+O",
-    "block": "[[[1,[28,[35,0],[\"Blog\"],null]],[1,\"\\n\\n\"],[46,[28,[37,2],null,null],null,null,null],[1,\"\\n\\n\"],[8,[39,3],null,null,null],[1,\"\\n\"]],[],false,[\"page-title\",\"component\",\"-outlet\",\"homepage\"]]",
+    "id": "tr3tG7gY",
+    "block": "[[[1,[28,[35,0],[\"Blog\"],null]],[1,\"\\n\\n\"],[46,[28,[37,2],null,null],null,null,null],[1,\"\\n\\n\"],[8,[39,3],null,null,null],[1,\"\\n\"],[8,[39,4],null,null,null],[1,\"\\n\"]],[],false,[\"page-title\",\"component\",\"-outlet\",\"navigation-bar\",\"homepage\"]]",
     "moduleName": "blog/templates/application.hbs",
     "isStrictMode": false
   });

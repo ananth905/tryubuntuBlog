@@ -1,13 +1,62 @@
   <div class="color-ball"></div>
-<div class="homepage-container">
-  
-    <div class="section-1 welcome-box flex items-center">
-       <div class="content-box">
-          mWindows: The OS that knows you better than your spouse.<br/> Linux: The OS that minds its own business.
+ 
+<div class="homepage-container flex flex-col">
+  <div class="linux-unix-switch">
+    <div class="linux-unix-btn active">Linux</div>
+     <div class="linux-unix-btn">BSD</div>
+  </div> 
+    <div class="section-1 welcome-box flex items-center justify-between">
+       <div class="content-box flex flex-col items-end">
+         <span>"Windows: I need 16GB of RAM and an i7 processor just to open Word.<br/>
+Linux: I can run on a potato and still get work done."</span> 
+         <span>
+            <div class="read-button " >
+                Cat the blog
+            </div>
+         </span>
        </div>
-       <div class="image-box">
-         
+       <div class="images-box">
+        <img src="/images/boy.png" alt="" />
        </div>
+    </div>
+
+    <div class="section-2 blogs-tiles-container flex flex-wrap">
+        <div class="blog-tile">
+            <div class="img-blog">
+                <img class="blogs-image" src="/images/Ubuntu-24.10.jpg" alt="">
+            </div>
+            <div class="blog-content-block blog-title">
+               Effortless Ubuntu 24.10 Upgrade for Seasoned Linux Users
+            </div>
+            <div class="tile-footer"></div>
+        </div>
+          <div class="blog-tile">
+            <div class="img-blog">
+                <img class="blogs-image" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Lubuntu_20.10_2880p_EN_20201231_31_12_2020_18_01_35.png" alt="">
+            </div>
+            <div class="blog-content-block blog-title">
+              Fast and Lean: Discover the Best Lightweight Linux Distross
+            </div>
+            <div class="tile-footer"></div>
+        </div>
+         <div class="blog-tile">
+            <div class="img-blog">
+                <img class="blogs-image" src="https://europe1.discourse-cdn.com/unity/original/4X/e/7/e/e7ec7df2eedf8713ba3a38d1b6a9cca010bcbd32.png" alt="">
+            </div>
+            <div class="blog-content-block blog-title">
+            Unity Won't Open? Solutions for Ubuntu 24.04 Users
+            </div>
+            <div class="tile-footer"></div>
+        </div>
+         <div class="blog-tile">
+            <div class="img-blog">
+                <img class="blogs-image" src="https://kskroyal.com/wp-content/uploads/2023/02/Make-ubuntu-Look-Like-MacOS-Ventura.jpg" alt="">
+            </div>
+            <div class="blog-content-block blog-title">
+            Make Your Ubuntu Desktop Mirror macOS Design
+            </div>
+            <div class="tile-footer"></div>
+        </div>
     </div>
 </div>
 {{yield}}
