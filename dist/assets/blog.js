@@ -53,7 +53,7 @@
     
       <div class="section-1 welcome-box flex items-center">
          <div class="content-box">
-            Windows: The OS that knows you better than your spouse.<br/> Linux: The OS that minds its own business.
+            mWindows: The OS that knows you better than your spouse.<br/> Linux: The OS that minds its own business.
          </div>
          <div class="image-box">
            
@@ -63,8 +63,8 @@
   {{yield}}
   */
   {
-    "id": "dR/cEJsG",
-    "block": "[[[1,\"  \"],[10,0],[14,0,\"color-ball\"],[12],[13],[1,\"\\n\"],[10,0],[14,0,\"homepage-container\"],[12],[1,\"\\n  \\n    \"],[10,0],[14,0,\"section-1 welcome-box flex items-center\"],[12],[1,\"\\n       \"],[10,0],[14,0,\"content-box\"],[12],[1,\"\\n          Windows: The OS that knows you better than your spouse.\"],[10,\"br\"],[12],[13],[1,\" Linux: The OS that minds its own business.\\n       \"],[13],[1,\"\\n       \"],[10,0],[14,0,\"image-box\"],[12],[1,\"\\n         \\n       \"],[13],[1,\"\\n    \"],[13],[1,\"\\n\"],[13],[1,\"\\n\"],[18,1,null]],[\"&default\"],false,[\"div\",\"br\",\"yield\"]]",
+    "id": "1h5h7LYs",
+    "block": "[[[1,\"  \"],[10,0],[14,0,\"color-ball\"],[12],[13],[1,\"\\n\"],[10,0],[14,0,\"homepage-container\"],[12],[1,\"\\n  \\n    \"],[10,0],[14,0,\"section-1 welcome-box flex items-center\"],[12],[1,\"\\n       \"],[10,0],[14,0,\"content-box\"],[12],[1,\"\\n          mWindows: The OS that knows you better than your spouse.\"],[10,\"br\"],[12],[13],[1,\" Linux: The OS that minds its own business.\\n       \"],[13],[1,\"\\n       \"],[10,0],[14,0,\"image-box\"],[12],[1,\"\\n         \\n       \"],[13],[1,\"\\n    \"],[13],[1,\"\\n\"],[13],[1,\"\\n\"],[18,1,null]],[\"&default\"],false,[\"div\",\"br\",\"yield\"]]",
     "moduleName": "blog/components/homepage.hbs",
     "isStrictMode": false
   });
