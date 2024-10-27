@@ -398,7 +398,7 @@ catch(err) {
 
 ;
           if (!runningTests) {
-            require("blog/app")["default"].create({"name":"blog","version":"0.0.0+a875eb25"});
+            require("blog/app")["default"].create({"name":"blog","version":"0.0.0+d291cc1d"});
           }
         
 //# sourceMappingURL=blog.map
