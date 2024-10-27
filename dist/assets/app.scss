@@ -1,0 +1,45 @@
+/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+    font-weight: lighter;
+}
+.homepage-container{
+    display: flex;
+    width: 100vw;
+    background:  #8b3a4a1e ;
+    backdrop-filter: blur(150px);
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+
+}
+.welcome-box{
+    width:90vw;
+    height: 500px;
+    background: rgb(255, 255, 255, 0.3);
+    // border: 1px solid rgba(233, 84, 32, 0.2) ;
+    backdrop-filter: blur(150px);
+    border-radius: 15px;
+    margin:  auto;
+    margin-top: 40px;
+
+
+}
+
+// .color-ball{
+//         position: absolute;
+//         top: 0px;
+//         left: 00px;
+//         height: 60px;
+//         width: 60px;
+//         background-color: #e95420;
+//         z-index: -1;
+//         backdrop-filter: blur(1500px);
+//         border-radius: 10px;
+        
+// }
